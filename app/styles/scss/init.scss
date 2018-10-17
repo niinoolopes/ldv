@@ -1,0 +1,27 @@
+//misc settings
+// @import 'config/_settings';
+// @import 'config/_mixins';
+
+//frameworks
+
+//global things
+@import 'general/_normalize';
+@import 'general/_reset';
+@import 'layout/_grid';
+@import 'config/_variables';
+// @import 'config/_swiper';
+
+//pages
+@import 'pages/_header';
+// @import 'pages/_aside';
+// @import 'pages/_banners';
+@import 'pages/_index';
+// @import 'pages/_single';
+// @import 'pages/_category';
+// @import 'pages/_page';
+// @import 'pages/_wordpress-default-css';
+// @import 'pages/_footer';
+// @import 'pages/_submenu';
+// @import 'pages/_galeria';
+// @import 'pages/_modal';
+// @import 'pages/_insight-center';
