@@ -1,0 +1,60 @@
+main{
+  background-color: #b45f93;
+  padding: 48px 0;
+  text-align: center;
+}
+main > div{
+  position: relative;
+}
+main .titulo{
+  font-size: 2.375em;
+  line-height: 0.9;
+  color: #fff;
+  font-weight: bold;
+}
+main .sub-titulo{
+  font-size: 1.5em;
+  line-height: 0.875;
+  color: #fbcf6d;
+  font-weight: bold;
+  margin: 16px 0 28px;
+  text-transform: uppercase;
+}
+main .texto {
+  color: rgba(255, 255, 255, 0.80);
+  margin: 14px 0;
+  line-height: 22px;
+  font-size: 1.25em;
+  font-weight: 100;
+}
+main .texto b{ 
+  color: rgba(255, 255, 255, 1);
+  display: unset;
+}
+main .figura{
+  
+}
+@media (min-width: 500px){ 
+  main{
+    padding: 62px 0;
+    text-align: unset;
+  }
+  main .sete{
+    padding: 0 12px;
+  }
+}
+@media (min-width: 780px){ 
+  main .titulo{
+    font-size: 4.5em;
+  }
+  main .sub-titulo{
+    font-size: 2.625em;
+  }
+  main .sete{
+    padding: 0 50px;
+  }
+  main .titulo span,
+  main .sub-titulo span{
+    display: block;
+  }
+}

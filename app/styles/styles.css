@@ -464,29 +464,34 @@ header {
   background-repeat: no-repeat; }
 
 .logo-topo {
-  padding: 24px 0; }
+  padding: 24px 0;
+  max-width: 200px; }
 
 main {
   background-color: #b45f93;
-  padding: 80px 0; }
+  padding: 48px 0;
+  text-align: center; }
+
+main > div {
+  position: relative; }
 
 main .titulo {
-  font-size: 6em;
+  font-size: 2.375em;
   line-height: 0.9;
   color: #fff;
   font-weight: bold; }
 
 main .sub-titulo {
-  font-size: 3.5em;
+  font-size: 1.5em;
   line-height: 0.875;
   color: #fbcf6d;
   font-weight: bold;
-  margin: 16px 0 8px;
+  margin: 16px 0 28px;
   text-transform: uppercase; }
 
 main .texto {
   color: rgba(255, 255, 255, 0.8);
-  margin: 28px 0;
+  margin: 14px 0;
   line-height: 22px;
   font-size: 1.25em;
   font-weight: 100; }
@@ -494,3 +499,75 @@ main .texto {
 main .texto b {
   color: white;
   display: unset; }
+
+@media (min-width: 500px) {
+  main {
+    padding: 62px 0;
+    text-align: unset; }
+  main .sete {
+    padding: 0 12px; } }
+
+@media (min-width: 780px) {
+  main .titulo {
+    font-size: 4.5em; }
+  main .sub-titulo {
+    font-size: 2.625em; }
+  main .sete {
+    padding: 0 50px; }
+  main .titulo span,
+  main .sub-titulo span {
+    display: block; } }
+
+.formulario {
+  background-color: #fbcf6d;
+  border-radius: 20px;
+  max-width: 370px;
+  padding: 32px 8px 0;
+  margin: 50px auto; }
+
+.formulario h2 {
+  font-size: 1.75em;
+  line-height: 1;
+  margin: 0 0 24px;
+  color: #b45f93;
+  font-weight: bold; }
+
+.formulario input {
+  display: block;
+  width: 100%;
+  margin: 18px 0;
+  padding: 12px 15px;
+  border: none;
+  border-radius: 7px;
+  font-size: 0.75em; }
+
+.formulario button {
+  background: #b45f93;
+  color: #fff;
+  border: none;
+  padding: 8px;
+  padding: 7px 15px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border-radius: 7px;
+  margin-left: calc(100% - 102px);
+  margin-top: 8px; }
+
+.figura-1 {
+  width: calc(100% - 50px);
+  bottom: 0;
+  margin: -30px 0 0 50px; }
+
+@media (min-width: 500px) {
+  .formulario {
+    padding: 32px;
+    margin: auto; }
+  .figura-1 {
+    width: calc(100% + 0px);
+    position: absolute;
+    bottom: 0;
+    margin: 0; } }
+
+@media (min-width: 771px) {
+  .figura-1 {
+    width: calc(100% + 1px); } }
