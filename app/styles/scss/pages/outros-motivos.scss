@@ -1,0 +1,34 @@
+.motivo{
+    padding: 70px 0 24px;
+}
+@media(min-width:500px){
+    .motivo{
+        padding: 70px 48px 48px;
+    }
+}
+.motivo h3{
+    font-size: 1.75em;
+    line-height: 1;
+    margin: 0 0 4px;
+    color: #b45f93;
+    font-weight: bold;
+    background: #ffda00;
+    width: fit-content;
+}
+.motivo > div{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 24px 0 62px;
+}
+.motivo span{
+    font-size: 1.625em;
+}
+.motivo ul{
+    width: fit-content;
+    margin: 48px auto 0;
+    font-size: 22px;
+}
+.motivo li{
+    font-size: 1em;
+    line-height: 28px;
+}
