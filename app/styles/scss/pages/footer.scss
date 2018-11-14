@@ -1,0 +1,28 @@
+footer{
+    border-top: 2px solid #b45f93;
+    border-bottom: 40px solid #b45f93;
+    padding: 24px 0 30px;
+}
+footer .container{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}  
+footer .icone{
+    max-height: 120px;
+}
+footer .texto{ 
+    font-size: 1.25em;
+    line-height: 1;
+    text-transform: uppercase;
+}
+footer a{
+    display: block;
+    line-height: 1;
+    font-size: 2em;
+    color: hsl(323, 36%, 54%);
+    font-weight: bold;
+}
+footer .logo{
+    margin-left: auto;
+}
