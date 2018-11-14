@@ -1,9 +1,12 @@
+.logo{
+  max-width: 200px; 
+}
 main{
   background-color: #b45f93;
   padding: 48px 0;
   text-align: center;
 }
-main > div{
+main .sete{
   position: relative;
 }
 main .titulo{
@@ -30,10 +33,7 @@ main .texto {
 main .texto b{ 
   color: rgba(255, 255, 255, 1);
   display: unset;
-}
-main .figura{
-  
-}
+} 
 @media (min-width: 500px){ 
   main{
     padding: 62px 0;
