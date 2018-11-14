@@ -1,0 +1,25 @@
+.video{
+    padding: 78px 0;
+    background: URL('../assets/images/bg-video.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} 
+.video iframe{
+    display: block;
+    margin: auto; 
+    box-shadow: 0 0 70px 0 rgba(0, 0, 0, 0.5);
+    width: 100%;
+}
+@media (min-width: 500px){ 
+    .video iframe{
+        max-width: 400px;
+        height: 256px; 
+    }
+}
+@media (min-width: 768px){
+    .video iframe{
+        max-width: 650px;
+        height: 366px;
+    }
+}
