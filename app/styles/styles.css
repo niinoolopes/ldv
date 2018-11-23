@@ -522,9 +522,7 @@ main .titulo {
   font-size: 2.375em;
   line-height: 0.9;
   color: #fff;
-  font-weight: bold;
-  font-family: 'Gudea', sans-serif;
-  font-family: 'Hind Guntur', sans-serif; }
+  font-weight: bold; }
 
 main .sub-titulo {
   font-size: 1.5em;
@@ -532,16 +530,19 @@ main .sub-titulo {
   color: #fbcf6d;
   font-weight: bold;
   margin: 16px 0 28px;
-  text-transform: uppercase;
-  font-family: 'Gudea', sans-serif;
-  font-family: 'Hind Guntur', sans-serif; }
+  text-transform: uppercase; }
 
 main .texto {
   color: rgba(255, 255, 255, 0.8);
   margin: 14px 0;
   line-height: 22px;
   font-size: 1.25em;
-  font-weight: 100; }
+  font-weight: 100;
+  padding: 0 8px; }
+
+@media (min-width: 789px) {
+  main .texto {
+    padding: 0; } }
 
 main .texto b {
   color: white;
@@ -554,7 +555,7 @@ main .texto b {
   main .sete {
     padding: 0 12px; } }
 
-@media (min-width: 780px) {
+@media (min-width: 789px) {
   main .titulo {
     font-size: 4.5em; }
   main .sub-titulo {
@@ -604,7 +605,7 @@ main .texto b {
   width: 100%;
   max-width: calc(100%); }
 
-@media (min-width: 700) {
+@media (min-width: 789px) {
   .formulario {
     max-width: 500px;
     padding: 32px;
@@ -634,7 +635,7 @@ main .texto b {
     max-width: 400px;
     height: 256px; } }
 
-@media (min-width: 768px) {
+@media (min-width: 789px) {
   .video iframe {
     max-width: 650px;
     height: 366px; } }
@@ -677,8 +678,9 @@ main .texto b {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  margin: 48px auto 0;
-  padding: 0 8px; }
+  margin: 48px 0 0;
+  padding: 0 8px;
+  list-style-type: none; }
 
 .motivo li {
   font-size: 1.25em;
