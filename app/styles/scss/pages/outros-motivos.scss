@@ -21,14 +21,20 @@
     margin: 24px 0 62px;
 }
 .motivo span{
-    font-size: 1.625em;
+    font-size: 1.25em;
+    padding: 0 8px;
+}
+@media (min-width:769px) {
+    .motivo span{
+        font-size: 1.625em;
+    }
 }
 .motivo ul{
     width: fit-content;
-    margin: 48px auto 0;
-    font-size: 22px;
+    margin: 48px auto 0; 
+    padding: 0 8px;
 }
 .motivo li{
-    font-size: 1em;
+    font-size: 1.25em;
     line-height: 28px;
 }
