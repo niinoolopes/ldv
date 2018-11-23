@@ -3,13 +3,16 @@ footer{
     border-bottom: 40px solid #b45f93;
     padding: 24px 8px 30px;
 }
-footer .container{
+footer .container,
+footer .container > div{
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
 }  
 footer .icone{
     max-height: 120px;
+    margin: 8px 16px 8px 8px;
 }
 footer .texto{ 
     font-size: 1.25em;
@@ -22,15 +25,28 @@ footer a{
     font-size: 1.25em;
     color: hsl(323, 36%, 54%);
     font-weight: bold;
+    margin: 10px 0;
+    text-align: center;
+}
+footer .logo{
+    margin: 24px auto 0;
+}
+@media (min-width:500px) {
+    footer .logo{
+        margin: auto;
+    }
+    footer a{
+        margin: 10px 0;
+    }
 }
 @media (min-width:769px) {
     .motivo span{
         font-size: 2em;
     }
-}
-footer .logo{
-    margin-left: auto;
-}
-html{
-    box-sizing: border-box
+    footer a{
+        text-align: left;
+    }
+    footer .logo{
+        margin: 0 0 0 auto;
+    } 
 }
