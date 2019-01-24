@@ -1,4 +1,4 @@
-# Projeto LabDoValor
--Page para cadastro
+# Projeto: Hotsite Labe do Valor
+Pagina com formulario de inscrição 
 
-<a href="https://niinoolopes.github.io/ldv/app" target="_blank"> ver pagina </a>
+<a href="https://revistamelhor.com.br/lab-do-valor/">Em produção</a>
